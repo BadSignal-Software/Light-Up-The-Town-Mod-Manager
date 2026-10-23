@@ -1,0 +1,10 @@
+{
+  "name": "LUTTNet",
+  "version": "0.0.16",
+  "author": "ShadowCanvas815 & CtrlSoftware",
+  "description": "Multiplayer for Light Up The Town.",
+  "long_description": "Syncs placed lights and decorations between players over a local bridge.",
+  "tags": ["multiplayer", "network"],
+  "dependencies": ["UE4SS 3.0.1", "Python 3"],
+  "game_version": "1.1.1"
+}
