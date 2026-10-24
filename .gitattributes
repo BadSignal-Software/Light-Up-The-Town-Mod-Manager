@@ -1,1 +1,2 @@
 *.lua linguist-language=Lua
+*.json linguist-language=json
