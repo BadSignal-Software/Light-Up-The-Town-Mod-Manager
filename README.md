@@ -25,8 +25,10 @@ Check out the official multiplayer mod for *Light Up The Town*:
 ## 🚀 Installation & Setup
 
 1. Download the latest release from the [**Releases**](../../releases) section.
-2. Install the mod manager into your *Light Up The Town* mods directory.
-3. Launch the game and look for the new Mod Manager button in the main menu!
+2. Install the mod manager.zip into your *Light Up The Town* mods directory (UE4SS folder).
+3. Add modmanager.json into your mods folders which you want to be detected and add info about the mod into the json.
+4. OPTIONAL - Add a folder into your mod’s folder which is next to modmanager.json called “images”. The manager scans this folder for images which display what the mod looks like
+5. Launch the game and look for the new Mod Manager button in the main menu!
 
 ## 🤝 Contributing
 
