@@ -37,4 +37,4 @@ Feel free to open an issue or submit a pull request on GitHub.
 
 ## 📄 License
 
-This project is distributed under the [MIT License](LICENSE) (or insert your chosen license).
+This project is distributed under the [MIT License](LICENSE).
