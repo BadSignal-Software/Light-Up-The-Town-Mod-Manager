@@ -1,40 +1,75 @@
-# Light Up The Town - In-Game Mod Manager
+# 💡 Light Up The Town - In-Game Mod Manager
 
-Welcome to the **Light Up The Town Mod Manager**! This mod adds an in-game interface that allows players to easily view all installed mods, complete with descriptions, author details, and preview images directly inside *Light Up The Town*.
+Welcome to the **Light Up The Town Mod Manager**! This mod provides a seamless, in-game UI that allows players to browse installed mods, read detailed descriptions, check author details, and preview screenshots directly within *Light Up The Town*.
 
-## 👥 Authors & Credits
-
-This project is actively developed and maintained by:
-
-* **ShadowCanvas815**
-* **Ctr1s0ftw4re**
-
-## 🔗 Related Projects & Links
-
-Check out the official multiplayer mod for *Light Up The Town*:
-
-* 🌐 **Multiplayer Mod Repository:** [BadSignal-Software/Light-Up-The-Town-Multiplayer-Mod](https://github.com/BadSignal-Software/Light-Up-The-Town-Multiplayer-Mod)
+---
 
 ## ✨ Features
 
-* **In-Game Mod Menu:** Adds a dedicated button inside the game menu to access your mod manager effortlessly.
-* **Detailed Mod Information:** View comprehensive details for each installed mod, including descriptions, version numbers, and author credits.
-* **Visual Mod Previews:** Supports mod images and screenshots so you can see what each mod offers at a glance.
-* **Multiplayer Compatible:** Designed to work smoothly alongside the [Light Up The Town Multiplayer Mod](https://github.com/BadSignal-Software/Light-Up-The-Town-Multiplayer-Mod).
+- **🎮 In-Game Mod Menu:** Access a dedicated, intuitive UI directly from the main game menu.
+- **📜 Detailed Mod Info:** View full descriptions, version tags, and author credits for all loaded mods.
+- **🖼️ Visual Previews:** Display custom preview images and screenshots to showcase mod features.
+- **🌐 Multiplayer Compatible:** Fully compatible with the official [Light Up The Town Multiplayer Mod](https://github.com/BadSignal-Software/Light-Up-The-Town-Multiplayer-Mod).
+
+---
+
+## 👥 Authors & Credits
+
+Maintained and developed by:
+
+- **ShadowCanvas815**
+- **Ctr1s0ftw4re**
+
+### 🔗 Related Projects
+- **Multiplayer Mod:** Check out the official multiplayer extension on [GitHub](https://github.com/BadSignal-Software/Light-Up-The-Town-Multiplayer-Mod).
+
+> **Note:** If you download the official Multiplayer Mod, the Mod Manager comes pre-packaged with it!
+
+---
 
 ## 🚀 Installation & Setup
 
-1. Download the latest release from the [**Releases**](../../releases) section.
-2. Install the mod manager.zip into your *Light Up The Town* mods directory (UE4SS folder).
-3. Add modmanager.json into your mods folders which you want to be detected and add info about the mod into the json.
-4. OPTIONAL - Add a folder into your mod’s folder which is next to modmanager.json called “images”. The manager scans this folder for images which display what the mod looks like
-5. Launch the game and look for the new Mod Manager button in the main menu!
+### For Players
+1. Download the latest release (`mod manager.zip`) from the [**Releases**](../../releases) page.
+2. Extract the archive into your *Light Up The Town* mods directory (located inside the `UE4SS` folder).
+3. Launch the game and look for the **Mod Manager** button on the main menu.
+
+---
+
+## 🛠️ Mod Developer Integration Guide
+
+To make your mod discoverable by the Mod Manager, follow these steps:
+
+### 1. Add `modmanager.json`
+Place the `modmanager.json` inside your mod directory e.g UE4SS/LUTTNet/modmanager.json
+
+### 2. Add Preview Images (Optional)
+
+Create an `images` folder in the same directory as `modmanager.json`:
+
+```text
+YourModFolder/
+├── modmanager.json
+└── images/
+    ├── preview1.png
+    └── preview2.jpg
+
+```
+
+The Mod Manager will automatically scan this folder and display the images in the UI.
+
+---
 
 ## 🤝 Contributing
 
-Contributions, bug reports, and feature requests are welcome!
+Contributions, bug reports, and feature requests are always welcome!
+
 Feel free to open an issue or submit a pull request on GitHub.
+
+---
 
 ## 📄 License
 
-This project is distributed under the [MIT License](LICENSE).
+This project is currently provided **without a license** (All Rights Reserved).
+
+```
